@@ -1,0 +1,428 @@
+/* .navbar-nav.navbar-center{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+} */
+
+body {
+    padding-top: 56px;
+    /* background-color: #45748d; */
+    font-family: "Roboto", sans-serif;
+    font-family: Lato;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Catamaran;
+    font-weight: 800 !important;
+}
+
+.btn-xl {
+    text-transform: uppercase;
+    padding: 1.5rem 3rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.bg-black {
+    background-color: #000 !important;
+}
+
+.rounded-pill {
+    border-radius: 5rem;
+}
+
+.navbar-custom {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-custom .navbar-brand {
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+header.masthead {
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 7rem;
+    background: linear-gradient(0deg, #ff6a00 0, #ee0979 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+header.masthead .masthead-content {
+    z-index: 1;
+    position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading {
+    font-size: 4rem;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+    font-size: 2rem;
+}
+
+header.masthead .bg-circle {
+    z-index: 0;
+    position: absolute;
+    border-radius: 100%;
+    background: linear-gradient(0deg, #ee0979 0, #ff6a00 100%);
+}
+
+header.masthead .bg-circle-1 {
+    height: 90rem;
+    width: 90rem;
+    bottom: -55rem;
+    left: -55rem;
+}
+
+header.masthead .bg-circle-2 {
+    height: 50rem;
+    width: 50rem;
+    top: -25rem;
+    right: -25rem;
+}
+
+header.masthead .bg-circle-3 {
+    height: 20rem;
+    width: 20rem;
+    bottom: -10rem;
+    right: 5%;
+}
+
+header.masthead .bg-circle-4 {
+    height: 30rem;
+    width: 30rem;
+    top: -5rem;
+    right: 35%;
+}
+
+@media (min-width: 992px) {
+    header.masthead {
+        padding-top: calc(10rem + 55px);
+        padding-bottom: 10rem;
+    }
+
+    header.masthead .masthead-content .masthead-heading {
+        font-size: 6rem;
+    }
+
+    header.masthead .masthead-content .masthead-subheading {
+        font-size: 4rem;
+    }
+}
+
+.bg-primary {
+    background-color: #ee0979 !important;
+}
+
+.btn-primary {
+    background-color: #ee0979;
+    border-color: #ee0979;
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: #bd0760 !important;
+    border-color: #bd0760 !important;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+}
+
+.btn-secondary {
+    background-color: #ff6a00;
+    border-color: #ff6a00;
+}
+
+.btn-secondary:active,
+.btn-secondary:focus,
+.btn-secondary:hover {
+    background-color: #c50 !important;
+    border-color: #c50 !important;
+}
+
+.btn-secondary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+
+:root {
+    --input-padding-x: 24px;
+    --input-padding-y: 12px;
+}
+
+.card-signin {
+    border: 0;
+    border-radius: 16px;
+}
+
+.card-signin .card-title {
+    margin-bottom: 32px;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.card-signin .card-body {
+    padding: 32px;
+}
+
+.form-signin {
+    width: 100%;
+}
+
+.form-signin .btn {
+    font-size: 80%;
+    border-radius: 80px;
+    letter-spacing: 1.6;
+    font-weight: bold;
+    padding: 16px;
+}
+
+.form-label-group {
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.form-label-group input {
+    height: auto;
+    border-radius: 32px;
+}
+
+.form-label-group > input,
+.form-label-group > label {
+    padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+#bg-class {
+    width: 100%;
+}
+
+/*CATALOGUE GOODS FONT*/
+.card-body .card-title {
+    color: #616161;
+    font-size: 20px;
+}
+
+
+
+/*#carouselExampleIndicators > img {*/
+/*  height: auto;*/
+/*  width: 100%;*/
+/*}*/
+
+/*!*CATALOGUE SECTION DESIGN*!*/
+/*main {*/
+/*  max-width: 1140px;*/
+/*  margin-left: auto;*/
+/*  margin-right: auto;*/
+/*  margin-top: 1px;*/
+/*}*/
+
+/*aside {*/
+/*  width: 300px;*/
+/*  margin: 2px 20px;*/
+
+/*}*/
+
+/*.catalogue {*/
+/*  border: 2px solid #556;*/
+/*  height: 500px;*/
+/*  width: 400px;*/
+
+/*}*/
+
+/*.catalogue .catalogue_head {*/
+/*  font-weight: 600;*/
+/*  background-color: darkred;*/
+/*  padding: 2px 2px;*/
+/*  margin: 2px 2px;*/
+
+/*}*/
+
+/*.catalogue > ul li {*/
+/*  text-transform: uppercase;*/
+/*  position: relative;*/
+/*  display: block;*/
+/*}*/
+
+/*.catalogue > ul>li a{*/
+/*  color: darkorange;*/
+/*}*/
+
+/*.catalogue > ul>li a:hover{*/
+/*  color: lightgoldenrodyellow;*/
+/*  transition: 1s;*/
+
+/*}*/
+
+/*.catalogue > ul {*/
+/*  padding-left: 15px;*/
+/*}*/
+
+/*.catalogue > ul li:hover > ul {*/
+/*  background-color: #454547;*/
+/*  color: #ffffff;*/
+/*  box-shadow: 1px 5px 10px -5px black;*/
+/*  transition: 0.3s ease;*/
+/*  display: block;*/
+/*}*/
+
+/*.catalogue > li ul {*/
+/*  position: absolute;*/
+/*  min-width: 150px;*/
+
+/*}*/
+
+/*.goods > li {*/
+/*  border: 1px solid #c7c8ca;*/
+/*  position: absolute;*/
+/*  left: 0px;*/
+/*  text-transform: none;*/
+/*  background-color: #e4e4e5;*/
+/*  display: none;*/
+/*}*/
+
+/*.goods > li:hover {*/
+/*  text-shadow: #191654;*/
+/*  transition: 0.3s ease;*/
+/*}*/
+
+/*.goods {*/
+/*  display: none;*/
+/*  border: 2px solid darkblue;*/
+/*  padding-left: 1px;*/
+/*  margin-left: 90px;*/
+/*}*/
+
+/*!*CAROUSEL DESIGN*!*/
+/*#carouselExampleIndicators {*/
+/*  width: 710px;*/
+/*  float: right;*/
+/*  margin-right: 250px;*/
+/*}*/
+
+/*#pic {*/
+/*  width: 600px;*/
+/*  height: 500px;*/
+
+/*}*/
+
+/*!*MAIN ITEMS - TOP GOODS*!*/
+/*.topgoods {*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  margin: 10px 10px;*/
+/*}*/
+
+/*.topgoodspos {*/
+/*  display: flex;*/
+/*}*/
+
+/*.topgoods > h2 {*/
+/*  font-family: fantasy, "Javanese Text", sans-serif;*/
+/*}*/
+
+/*.topgoodtext {*/
+/*  height: 90px;*/
+/*  width: 1120px;*/
+/*  display: flex;*/
+/*  padding-top: 5px;*/
+/*}*/
+
+/*.grid > div {*/
+/*  background-color: lightcoral;*/
+/*  border: 2px solid lightcyan;*/
+/*  border-radius: unset;*/
+/*}*/
+
+/*.grid{*/
+/*  display: grid;*/
+/*  !*grid-template-columns: 250px 250px 250px;*!*/
+/*  grid-template-columns: 1fr 1fr 250px;*/
+/*  grid-template-rows: 200px 200px;*/
+/*  grid-auto-rows: 100px;*/
+/*  grid-gap: 20px;*/
+/*  !*grid-column-gap: 20px;*!*/
+/*  !*grid-row-gap: 20px;*!*/
+
+/*}*/
+
+/*!*FOOTER ADDRESS SECTION*!*/
+/*footer {*/
+/*  max-width: 1110px;*/
+/*  margin-left: auto;*/
+/*  margin-right: auto;*/
+/*  margin-top: 5px;*/
+/*  background-color: lightslategrey;*/
+/*  height: 300px;*/
+/*}*/
+
+/*.address {*/
+/*  position: relative;*/
+/*}*/
+
+/*.address > ul {*/
+/*  margin: 15px 10px;*/
+/*  padding: 25px;*/
+
+/*}*/
+
+/*.address > ul li {*/
+/*  font-family: fantasy, Verdana, Arial, sans-serif;*/
+/*  width: 100px;*/
+
+/*}*/
+
+/*.fab {*/
+/*  font-size: 30px;*/
+/*  margin-left: 10px;*/
+/*  padding-top: 2px;*/
+/*  color: #237A57;*/
+/*}*/
+
+/*.fab:hover {*/
+/*  color: darkmagenta;*/
+/*  transition: 1s ease;*/
+/*}*/
+
+/* .form-label-group>label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  Override default `<label>` margin
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid transparent;
+  border-radius: 4px;
+} */
+
+/* .form-label-group input::placeholder {
+  color: transparent;
+} */
+
+/*ABOUT US SECTION*/
