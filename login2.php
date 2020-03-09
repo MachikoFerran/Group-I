@@ -104,7 +104,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <!-- NAVIGATION BAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html">SHOPPING</a>
+            <a class="navbar-brand" href="index2.html">SHOPPING</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -113,10 +113,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav navbar-center">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index2.html">HOME<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="register.html">REGISTER</a>
+                        <a class="nav-link" href="register2.php">REGISTER</a>
                     </li>
                 </ul>
             </div>
