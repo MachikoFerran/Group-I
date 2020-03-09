@@ -107,7 +107,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 		<!-- NAVIGATION BAR -->
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 			<div class="container">
-				<a class="navbar-brand" href="index.html">SHOPPING</a>
+				<a class="navbar-brand" href="index2.html">SHOPPING</a>
 				<button
 					class="navbar-toggler"
 					type="button"
